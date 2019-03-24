@@ -1,0 +1,249 @@
+.wix-logo{
+    width:100px;
+    height:50px;
+    margin-left:0;
+}
+.edit-button{
+    border-radius:50px;
+    width:150px;
+    height:40px;
+}
+#read{
+    text-decoration: underline;   
+    color:black;
+}
+#read:hover{
+    color:blue;
+}
+.website{
+    color:black;
+    margin-right:50px;
+}
+.icon{
+    position:relative;
+    left:30%;
+    padding:0 5%;
+    font-size:50%;
+    color:black;
+} 
+.icon:hover{
+    color:blue;
+}
+.logo{
+    display: inline-block;
+    height: 100%;
+    margin-left:2%;
+}
+.logo>img {
+    vertical-align: middle
+}
+.v-line{
+    display:inline-block;
+    height:30px;
+    border:1px solid gray;
+    position:relative;
+    right:10%;
+}
+/* index2 */
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+.goals{
+    display:flex;
+}
+/* parallax */
+.brand-logo img{
+        vertical-align: middle;
+        position: relative; 
+        top:-5px; 
+}
+.img{
+    background-image: url(../Images/american-best-friends-blond-hair-1574650.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-height:100%;
+}
+#header{
+    position:relative;
+     top: 50%; 
+     left: 5%; 
+}
+/* parallar */
+.flex-element{
+    flex:1;
+    padding:2%;
+}
+.bold-text{
+    font-weight: bold;
+}
+.para-one{
+    font-size:30px;
+}
+.blue-box{
+    padding:1%;
+}
+.page-footer{
+    padding-bottom:1%;
+}
+/* Join Us */
+.picture{
+    margin-top:10%;
+}
+.join-us{  
+    text-align: center;
+    padding:3% 14%;
+}
+/*  */
+.read{
+    margin:8%;
+}
+.form{
+    padding:5%;
+}
+.form-element{
+    flex:1;
+    margin:1%;
+}
+.form-element li{
+    padding:2%;
+}
+.form-element-second{
+    flex:1.5;
+    margin:1%;
+}
+.sign-up{
+    width:100%;
+}
+.parallax-container {
+    height: 750px;
+} 
+.padding{
+    padding:5%;
+}
+/* left sidebar */
+.left-sidebar{
+    position:fixed;
+    top:40%;
+    right:0%;
+    z-index:999;
+}
+.left-sidebar ul{
+    border:none;
+}
+.left-sidebar li:nth-child(1){
+    background:#0E2973;
+    border-bottom-color:#0E2973; 
+}
+.left-sidebar li:nth-child(2){
+    background:#0E2973;
+    border-bottom-color:#0E2973; 
+}
+.left-sidebar li:nth-child(3){
+    background:#0E2973;
+    border-bottom-color:#0E2973; 
+}
+.left-sidebar li:nth-child(4){
+    background:#0E2973;
+}
+.left-sidebar i.fa{
+    padding:1%;
+    font-size:25px;
+} 
+/* left sidebar
+/* upcoming events */
+ .width{
+    width:90%;
+    border:none;
+} 
+.display{
+    display:inline-block;
+}
+.collapsible-header:hover  .display{ 
+    display:none;
+}
+.center-div{
+    margin-left:15%;
+} 
+.collapsible-header{
+    border-bottom:2px solid #EC407A;
+}
+.date{
+    font-size:42px; 
+}
+.superscript{
+    font-size:15px;
+    position:relative;
+    top:-25px;
+}
+.subscript{
+    font-size:15px;
+    position:relative;
+    left:-35px;
+}
+.text:hover{
+    color:#EC407A;
+}
+.text{
+    font-size:30px;
+    color:black;
+}
+.san-francisco{
+    font-size:17px;
+}
+/* upcoming events */
+.nav2{
+    background-color: rgba(0,0,0,0.6);
+}
+/* DONATE BUTTON */
+.donate-btn{
+    width:200px;
+    height:63px;
+}
+/* DONATE BUTTON */
+.nav-links2:hover{
+    color:#EC407A;
+}
+.slideOutLeft{
+animation-duration: 1s;
+animation-iteration-count: 1;
+}
+/* media queries */
+@media only screen and (max-width:700px){
+    .form{
+        display:flex;
+        flex-direction:column;
+    }
+    .mission{
+        display:flex;
+        flex-direction: column;
+    }
+    .picture{
+        display:flex;
+        flex-direction: column;
+    }
+    .read{
+        display:block;
+    }
+    .text{
+        font-size:15px;
+    }
+    .date{
+        font-size:15px;
+        font-weight:bold;
+    }
+    .subscript{
+        display:none;
+    }
+    .superscript{
+        display:none;
+    }
+}
